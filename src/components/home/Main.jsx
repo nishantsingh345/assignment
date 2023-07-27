@@ -45,8 +45,12 @@ const Main = () => {
             </p>
           </div>
 
-          <Link href="" className="cursor-pointer">
-            <img src="/Frame 1321314266.png" alt="" />
+          <Link href="/addproduct" className="cursor-pointer">
+            <button className="bg-[#D9D9D9]/10 py-4 px-10 flex items-center gap-2 rounded-[41px]">
+              <p>See Pricing & Book </p>
+              <img src="/Union.png" alt="" />
+            </button>
+            {/* <img src="/Frame 1321314266.png" alt="" /> */}
           </Link>
         </div>
       </div>

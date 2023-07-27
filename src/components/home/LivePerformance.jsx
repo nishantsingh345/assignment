@@ -30,7 +30,13 @@ const LivePerformance = () => {
             slideShadows: true,
             Autoplay: true,
           }}
-          pagination={true}
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
           modules={[EffectCoverflow, Pagination, Autoplay]}
           className="mySwiper"
         >

@@ -4,7 +4,7 @@ import React from 'react'
 const Performance = () => {
   return (
     <div className="py-4 px-28">
-      <div className="shadow-gray-700 shadow-2xl rounded-t-full px-32 py-20">
+      <div className="shadow-[#D9D9D9]/10 shadow-2xl rounded-t-full px-32 py-20">
         <div className="border border-white/10 rounded-t-full p-10">
           <div className="borde2  rounded-t-full">
             <div className="p-20">
